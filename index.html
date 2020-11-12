@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedra Papel Tesoura</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    secao para score e intro
+    <section class="game">
+      <!-- secao para o score -->
+      <div class="score">
+        <div class="player-score">
+          <h2>Player</h2>
+          <p>0</p>
+        </div>
+        <div class="pc-score">
+          <h2>Bot</h2>
+          <p>0</p>
+        </div>
+      </div>
+
+      <div class="intro">
+        <h1>Rock Paper Scissors</h1>
+        <button>Play</button>
+      </div>
+
+      <div class="match fadeOut">
+        <h2 class="winner">Choose an option</h2>
+        <div class="hands">
+          <img class="player-hand" src="./utils/rock.png" alt="" srcset="" />
+          <img class="pc-hand" src="./utils/rock.png" alt="" srcset="" />
+        </div>
+        <div class="options">
+          <button class="rock">rock</button>
+          <button class="scissors">scissors</button>
+          <button class="paper">paper</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
